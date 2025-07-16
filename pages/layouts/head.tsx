@@ -3,7 +3,7 @@ import NextHead from "next/head";
 
 import { siteConfig } from "@/config/site";
 
-export const Head = () => {
+const Head = () => {
   return (
     <NextHead>
       <title>{siteConfig.name}</title>
@@ -19,3 +19,5 @@ export const Head = () => {
     </NextHead>
   );
 };
+
+export default Head;
