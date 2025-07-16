@@ -25,12 +25,12 @@ export default function Document() {
           content="Explora rutas de senderismo únicas y conecta con la naturaleza como nunca antes."
           property="og:description"
         />
-        <meta content="/logo.JPG" property="og:image" />
+        <meta content="/social-card.png" property="og:image" />
         <meta content="https://goathiking.com" property="og:url" />
         <meta content="website" property="og:type" />
 
         {/* Metadatos para Twitter */}
-        <meta content="summary_large_image" name="twitter:card" />
+        <meta content="/social-card.png" name="twitter:card" />
         <meta
           content="Goat Hiking - Aventuras únicas en la naturaleza"
           name="twitter:title"
@@ -39,7 +39,7 @@ export default function Document() {
           content="Explora rutas de senderismo únicas y conecta con la naturaleza como nunca antes."
           name="twitter:description"
         />
-        <meta content="/logo.JPG" name="twitter:image" />
+        <meta content="/social-card.png" name="twitter:image" />
         <meta content="https://goathiking.com" name="twitter:url" />
       </Head>
       <body
