@@ -3,7 +3,7 @@ import NextHead from "next/head";
 
 import { siteConfig } from "@/config/site";
 
-const Head = () => {
+export default function Head() {
   return (
     <NextHead>
       <title>{siteConfig.name}</title>
@@ -18,6 +18,4 @@ const Head = () => {
       <link href="/favicon.ico" rel="icon" />
     </NextHead>
   );
-};
-
-export default Head;
+}
