@@ -1,4 +1,5 @@
 import Head from "next/head";
+
 import { title, subtitle } from "@/components/primitives";
 
 export default function IndexPage() {

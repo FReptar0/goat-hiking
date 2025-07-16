@@ -25,7 +25,7 @@ export default function Document() {
           content="Explora rutas de senderismo únicas y conecta con la naturaleza como nunca antes."
           property="og:description"
         />
-        <meta content="/public/preview-image.jpg" property="og:image" />
+        <meta content="/logo.JPG" property="og:image" />
         <meta content="https://goathiking.com" property="og:url" />
         <meta content="website" property="og:type" />
 
@@ -39,7 +39,7 @@ export default function Document() {
           content="Explora rutas de senderismo únicas y conecta con la naturaleza como nunca antes."
           name="twitter:description"
         />
-        <meta content="/public/preview-image.jpg" name="twitter:image" />
+        <meta content="/logo.JPG" name="twitter:image" />
         <meta content="https://goathiking.com" name="twitter:url" />
       </Head>
       <body
