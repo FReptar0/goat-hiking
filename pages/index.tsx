@@ -52,21 +52,6 @@ export default function IndexPage() {
         {/* Wave Background */}
         <WaveBackground className="absolute inset-0 z-10" variant="hero" />
 
-        {/* Decorative background pattern */}
-        <div className="absolute inset-0 opacity-5 z-15">
-          <div className="absolute top-10 left-10 text-green-600">
-            <MountainIcon size={100} />
-          </div>
-          <div className="absolute top-32 right-20 text-green-500">
-            <TrekkingIcon size={80} />
-          </div>
-          <div className="absolute bottom-20 left-20 text-green-600">
-            <CompassIcon size={90} />
-          </div>
-          <div className="absolute bottom-32 right-10 text-green-500">
-            <MountainIcon size={110} />
-          </div>
-        </div>
         <div className="relative z-20 max-w-6xl mx-auto px-6 text-center">
           {/* Contenido principal del hero */}
           <div className="mb-8">
