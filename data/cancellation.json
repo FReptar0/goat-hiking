@@ -1,0 +1,117 @@
+{
+  "cancellationPolicy": {
+    "title": "Política de Cancelación y Reembolsos",
+    "lastUpdated": "2025-01-25",
+    "version": "1.0",
+    "overview": {
+      "introduction": "[CONTENIDO A REDACTAR] - Introducción a la política de cancelación",
+      "importance": "Es importante que entienda nuestra política antes de realizar su reserva"
+    },
+    "cancellationPeriods": [
+      {
+        "id": "early_cancellation",
+        "period": "Más de 30 días antes",
+        "refundPercentage": 100,
+        "conditions": "[CONTENIDO A REDACTAR] - Condiciones para reembolso completo",
+        "processingFee": 0,
+        "notes": "[CONTENIDO A REDACTAR]"
+      },
+      {
+        "id": "medium_cancellation", 
+        "period": "15-30 días antes",
+        "refundPercentage": 75,
+        "conditions": "[CONTENIDO A REDACTAR] - Condiciones para reembolso del 75%",
+        "processingFee": "[MONTO A DEFINIR]",
+        "notes": "[CONTENIDO A REDACTAR]"
+      },
+      {
+        "id": "late_cancellation",
+        "period": "7-14 días antes", 
+        "refundPercentage": 50,
+        "conditions": "[CONTENIDO A REDACTAR] - Condiciones para reembolso del 50%",
+        "processingFee": "[MONTO A DEFINIR]",
+        "notes": "[CONTENIDO A REDACTAR]"
+      },
+      {
+        "id": "very_late_cancellation",
+        "period": "Menos de 7 días antes",
+        "refundPercentage": 0,
+        "conditions": "[CONTENIDO A REDACTAR] - Sin reembolso",
+        "processingFee": 0,
+        "notes": "[CONTENIDO A REDACTAR] - Posibles excepciones"
+      }
+    ],
+    "specialCircumstances": {
+      "weatherCancellation": {
+        "title": "Cancelación por Clima",
+        "policy": "[CONTENIDO A REDACTAR] - Política cuando se cancela por mal tiempo",
+        "options": [
+          "Reprogramación sin costo",
+          "Reembolso completo",
+          "Crédito para futura aventura"
+        ]
+      },
+      "medicalEmergency": {
+        "title": "Emergencia Médica",
+        "policy": "[CONTENIDO A REDACTAR] - Política para emergencias médicas",
+        "requirements": [
+          "Certificado médico",
+          "Notificación inmediata",
+          "Documentación requerida"
+        ]
+      },
+      "familyEmergency": {
+        "title": "Emergencia Familiar",
+        "policy": "[CONTENIDO A REDACTAR] - Política para emergencias familiares",
+        "requirements": "[CONTENIDO A REDACTAR]"
+      }
+    },
+    "modifications": {
+      "title": "Modificaciones de Reserva",
+      "dateChanges": {
+        "policy": "[CONTENIDO A REDACTAR] - Cambios de fecha",
+        "fees": "[CONTENIDO A REDACTAR] - Tarifas por cambio",
+        "limitations": "[CONTENIDO A REDACTAR] - Limitaciones"
+      },
+      "participantChanges": {
+        "policy": "[CONTENIDO A REDACTAR] - Cambios de participantes",
+        "fees": "[CONTENIDO A REDACTAR]",
+        "requirements": "[CONTENIDO A REDACTAR]"
+      }
+    },
+    "refundProcess": {
+      "title": "Proceso de Reembolso",
+      "steps": [
+        {
+          "step": 1,
+          "description": "[CONTENIDO A REDACTAR] - Solicitud de cancelación"
+        },
+        {
+          "step": 2,  
+          "description": "[CONTENIDO A REDACTAR] - Revisión y aprobación"
+        },
+        {
+          "step": 3,
+          "description": "[CONTENIDO A REDACTAR] - Procesamiento del reembolso"
+        }
+      ],
+      "timeframes": {
+        "processing": "[CONTENIDO A REDACTAR] - Tiempo de procesamiento",
+        "bankTransfer": "[CONTENIDO A REDACTAR] - Tiempo para transferencias",
+        "creditCard": "[CONTENIDO A REDACTAR] - Tiempo para tarjetas"
+      }
+    },
+    "contact": {
+      "title": "Contacto para Cancelaciones",
+      "email": "cancelaciones@goathiking.com",
+      "phone": "+54 9 11 5555-5555",
+      "whatsapp": "https://wa.me/5491155555555",
+      "businessHours": "[CONTENIDO A REDACTAR] - Horarios de atención"
+    },
+    "importantNotes": [
+      "[CONTENIDO A REDACTAR] - Nota importante 1",
+      "[CONTENIDO A REDACTAR] - Nota importante 2",
+      "[CONTENIDO A REDACTAR] - Nota importante 3"
+    ]
+  }
+}

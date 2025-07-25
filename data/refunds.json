@@ -1,0 +1,54 @@
+{
+  "refundPolicy": {
+    "title": "Política de Reembolsos",
+    "lastUpdated": "2025-01-25",
+    "version": "1.0",
+    "generalPolicy": {
+      "introduction": "[CONTENIDO A REDACTAR] - Política general de reembolsos",
+      "eligibility": "[CONTENIDO A REDACTAR] - Quién es elegible para reembolsos"
+    },
+    "refundTypes": [
+      {
+        "id": "cancellation_refund",
+        "name": "Reembolso por Cancelación",
+        "description": "[CONTENIDO A REDACTAR] - Reembolsos según política de cancelación",
+        "referencePolicy": "cancellation"
+      },
+      {
+        "id": "service_issue_refund",
+        "name": "Reembolso por Problemas de Servicio", 
+        "description": "[CONTENIDO A REDACTAR] - Cuando el servicio no cumple estándares",
+        "conditions": "[CONTENIDO A REDACTAR]"
+      },
+      {
+        "id": "weather_refund",
+        "name": "Reembolso por Clima",
+        "description": "[CONTENIDO A REDACTAR] - Reembolsos por cancelaciones climáticas",
+        "conditions": "[CONTENIDO A REDACTAR]"
+      }
+    ],
+    "processingTimes": {
+      "standard": "[CONTENIDO A REDACTAR] - Tiempo estándar de procesamiento",
+      "expedited": "[CONTENIDO A REDACTAR] - Procesamiento acelerado",
+      "bankHolidays": "[CONTENIDO A REDACTAR] - Consideraciones por feriados"
+    },
+    "refundMethods": [
+      {
+        "method": "Transferencia bancaria",
+        "timeframe": "[CONTENIDO A REDACTAR]",
+        "fees": "[CONTENIDO A REDACTAR]"
+      },
+      {
+        "method": "Reembolso a tarjeta de crédito",
+        "timeframe": "[CONTENIDO A REDACTAR]", 
+        "fees": "[CONTENIDO A REDACTAR]"
+      },
+      {
+        "method": "Crédito para futura aventura",
+        "timeframe": "Inmediato",
+        "fees": "Sin costo",
+        "validity": "[CONTENIDO A REDACTAR] - Validez del crédito"
+      }
+    ]
+  }
+}

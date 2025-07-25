@@ -1,69 +1,113 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + HeroUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "Goat Hiking",
+  description:
+    "Explora rutas de senderismo únicas y conecta con la naturaleza. Aventuras de hiking, trekking y montañismo en destinos únicos.",
   navItems: [
     {
-      label: "Home",
+      label: "Inicio",
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Aventuras",
+      href: "/adventures",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Destinos",
+      href: "/destinations",
+    },
+    {
+      label: "FAQ",
+      href: "/faq",
+    },
+    {
+      label: "Nosotros",
+      href: "/about",
+    },
+    {
+      label: "Contacto",
+      href: "/contact",
+    },
+  ],
+  navMenuItems: [
+    {
+      label: "Inicio",
+      href: "/",
+    },
+    {
+      label: "Aventuras",
+      href: "/adventures",
+    },
+    {
+      label: "Hiking",
+      href: "/hiking",
+    },
+    {
+      label: "Trekking",
+      href: "/trekking",
+    },
+    {
+      label: "Montañismo",
+      href: "/mountaineering",
+    },
+    {
+      label: "Destinos",
+      href: "/destinations",
+    },
+    {
+      label: "FAQ",
+      href: "/faq",
+    },
+    {
+      label: "Nosotros",
+      href: "/about",
     },
     {
       label: "Blog",
       href: "/blog",
     },
     {
-      label: "About",
-      href: "/about",
+      label: "Contacto",
+      href: "/contact",
+    },
+    {
+      label: "Términos y Condiciones",
+      href: "/terms",
+    },
+    {
+      label: "Política de Privacidad",
+      href: "/privacy",
+    },
+    {
+      label: "Política de Cancelación",
+      href: "/cancellation",
     },
   ],
-  navMenuItems: [
+  legalLinks: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "Términos y Condiciones",
+      href: "/terms",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Política de Privacidad", 
+      href: "/privacy",
     },
     {
-      label: "Projects",
-      href: "/projects",
+      label: "Política de Cancelación",
+      href: "/cancellation",
     },
     {
-      label: "Team",
-      href: "/team",
-    },
-    {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
+      label: "Política de Reembolsos",
+      href: "/refunds",
     },
   ],
   links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    instagram: "https://instagram.com/goathiking",
+    facebook: "https://facebook.com/goathiking",
+    whatsapp:
+      "https://wa.me/5491155555555?text=Hola%2C%20me%20interesa%20conocer%20las%20fechas%20disponibles%20para%20las%20aventuras%20de%20Goat%20Hiking",
+    email: "info@goathiking.com",
+    phone: "+54 9 11 5555-5555",
   },
 };
