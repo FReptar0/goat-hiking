@@ -80,8 +80,8 @@ export const siteConfig = {
       href: "/privacy",
     },
     {
-      label: "Política de Cancelación",
-      href: "/cancellation",
+      label: "Políticas de Participación",
+      href: "/policies",
     },
   ],
   legalLinks: [
@@ -94,12 +94,8 @@ export const siteConfig = {
       href: "/privacy",
     },
     {
-      label: "Política de Cancelación",
-      href: "/cancellation",
-    },
-    {
-      label: "Política de Reembolsos",
-      href: "/refunds",
+      label: "Políticas de Participación",
+      href: "/policies",
     },
   ],
   links: {

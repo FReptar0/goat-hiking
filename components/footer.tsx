@@ -112,13 +112,8 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link className="text-grey-500 hover:text-green-400 transition-colors" href="/cancellation">
-                  Cancelación
-                </Link>
-              </li>
-              <li>
-                <Link className="text-grey-500 hover:text-green-400 transition-colors" href="/refunds">
-                  Reembolsos
+                <Link className="text-grey-500 hover:text-green-400 transition-colors" href="/policies">
+                  Políticas
                 </Link>
               </li>
             </ul>
@@ -138,8 +133,8 @@ export const Footer = () => {
                 Privacidad
               </Link>
               <span>•</span>
-              <Link className="text-grey-500 hover:text-green-400 transition-colors" href="/cancellation">
-                Cancelación
+              <Link className="text-grey-500 hover:text-green-400 transition-colors" href="/policies">
+                Políticas
               </Link>
             </div>
           </div>
