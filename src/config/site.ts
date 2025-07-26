@@ -99,11 +99,11 @@ export const siteConfig = {
     },
   ],
   links: {
-    instagram: "https://instagram.com/goathiking",
-    facebook: "https://facebook.com/goathiking",
+    instagram: "https://instagram.com/goat_hiking/",
+    facebook: "https://facebook.com/goat_hiking/",
     whatsapp:
-      "https://wa.me/5491155555555?text=Hola%2C%20me%20interesa%20conocer%20las%20fechas%20disponibles%20para%20las%20aventuras%20de%20Goat%20Hiking",
-    email: "info@goathiking.com",
-    phone: "+54 9 11 5555-5555",
+      "https://wa.me/527771325542?text=Hola%2C%20me%20interesa%20conocer%20las%20fechas%20disponibles%20para%20las%20aventuras%20de%20Goat%20Hiking",
+    email: "info@goat-hiking.com",
+    phone: "+52 777 132 5542",
   },
 };
