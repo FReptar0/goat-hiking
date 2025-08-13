@@ -102,8 +102,8 @@ export const siteConfig = {
     instagram: "https://instagram.com/goat_hiking/",
     facebook: "https://facebook.com/goat_hiking/",
     whatsapp:
-      "https://wa.me/527771325542?text=Hola%2C%20me%20interesa%20conocer%20las%20fechas%20disponibles%20para%20las%20aventuras%20de%20Goat%20Hiking",
+      "https://wa.me/525572097559?text=Hola%2C%20me%20interesa%20conocer%20las%20fechas%20disponibles%20para%20las%20aventuras%20de%20Goat%20Hiking",
     email: "info@goat-hiking.com",
-    phone: "+52 777 132 5542",
+    phone: "+52 55 7209 7559",
   },
 };
