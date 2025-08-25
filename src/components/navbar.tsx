@@ -58,6 +58,7 @@ export const Navbar = () => {
             as={Link}
             className="bg-green-600 hover:bg-green-700 text-white font-semibold shadow-md transition-all duration-300"
             href={siteConfig.links.whatsapp}
+            rel="noopener noreferrer"
             size="sm"
             startContent={<WhatsAppIcon size={16} />}
           >
@@ -96,6 +97,7 @@ export const Navbar = () => {
               as={Link}
               className="bg-green-600 hover:bg-green-700 text-white font-semibold shadow-md w-fit mt-4"
               href={siteConfig.links.whatsapp}
+              rel="noopener noreferrer"
               size="md"
               startContent={<WhatsAppIcon size={18} />}
             >

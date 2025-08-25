@@ -52,9 +52,9 @@ export default function IndexPage() {
         {/* Wave Background */}
         <WaveBackground className="absolute inset-0 z-10" variant="hero" />
 
-        <div className="relative z-20 max-w-6xl mx-auto px-6 text-center">
+        <div className="relative z-20 w-full text-center px-6">
           {/* Contenido principal del hero */}
-          <div className="mb-8">
+          <div className="mb-8 max-w-4xl mx-auto">
             <h1 className={`${title({ size: "lg" })} text-gray-800 mb-6`}>
               Descubre la{" "}
               <span className={title({ color: "green", size: "lg" })}>
@@ -90,6 +90,7 @@ export default function IndexPage() {
               as={Link}
               className="bg-green-600/90 backdrop-blur-md hover:bg-green-700/90 text-white font-semibold px-8 py-3 shadow-lg border border-green-500/30 transition-all duration-300"
               href={siteConfig.links.whatsapp}
+              rel="noopener noreferrer"
               size="lg"
             >
               <WhatsAppIcon size={20} />
@@ -113,6 +114,7 @@ export default function IndexPage() {
               as={Link}
               className="bg-green-100/80 backdrop-blur-md hover:bg-green-200/80 text-green-700 shadow-md border border-green-200/50 transition-all duration-300"
               href={siteConfig.links.instagram}
+              rel="noopener noreferrer"
               variant="flat"
             >
               <InstagramIcon className="text-green-700" size={24} />
@@ -123,6 +125,7 @@ export default function IndexPage() {
               as={Link}
               className="bg-blue-100/80 backdrop-blur-md hover:bg-blue-200/80 text-blue-700 shadow-md border border-blue-200/50 transition-all duration-300"
               href={siteConfig.links.facebook}
+              rel="noopener noreferrer"
               variant="flat"
             >
               <FacebookIcon className="text-blue-700" size={24} />
@@ -290,22 +293,24 @@ export default function IndexPage() {
         {/* Glassmorphism Overlay */}
         <div className="absolute inset-0 bg-emerald-800/30 backdrop-blur-sm z-15" />
 
-        <div className="relative z-20 max-w-4xl mx-auto text-center px-6">
-          <h2 className={`${title({ size: "md" })} text-white mb-6`}>
-            ¿Listo para tu próxima{" "}
-            <span className="text-emerald-100">aventura?</span>
-          </h2>
-          <p className="text-emerald-50 text-xl mb-8 max-w-2xl mx-auto">
-            Contáctanos por WhatsApp para conocer nuestras próximas fechas
-            disponibles y comenzar a planificar tu experiencia única en la
-            naturaleza.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="relative z-20 w-full text-center px-6">
+          <div className="max-w-4xl mx-auto">
+            <h2 className={`${title({ size: "md" })} text-white mb-6`}>
+              ¿Listo para tu próxima{" "}
+              <span className="text-emerald-100">aventura?</span>
+            </h2>
+            <p className="text-emerald-50 text-xl mb-8">
+              Contáctanos por WhatsApp para conocer nuestras próximas fechas
+              disponibles y comenzar a planificar tu experiencia única en la
+              naturaleza.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               isExternal
               as={Link}
               className="bg-white text-emerald-700 hover:bg-gray-100 font-semibold px-8 py-3 shadow-lg"
               href={siteConfig.links.whatsapp}
+              rel="noopener noreferrer"
               size="lg"
             >
               <WhatsAppIcon size={20} />
@@ -316,12 +321,14 @@ export default function IndexPage() {
               as={Link}
               className="bg-white/10 backdrop-blur-md border-2 border-white/50 text-white hover:bg-white hover:text-emerald-700 shadow-lg transition-all duration-300"
               href={siteConfig.links.instagram}
+              rel="noopener noreferrer"
               size="lg"
               variant="bordered"
             >
               <InstagramIcon size={20} />
               Síguenos en Instagram
             </Button>
+            </div>
           </div>
         </div>
       </section>

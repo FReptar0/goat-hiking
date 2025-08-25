@@ -5,7 +5,7 @@ import { fontSans } from "@/config/fonts";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="es">
       <Head>
         {/* Metadatos básicos */}
         <meta charSet="utf-8" />
@@ -29,6 +29,10 @@ export default function Document() {
           content="https://www.goat-hiking.com/social-card.png"
           property="og:image"
         />
+        <meta
+          content="Goat Hiking - Aventuras de montañismo y trekking en México"
+          property="og:image:alt"
+        />
         <meta content="https://www.goat-hiking.com" property="og:url" />
         <meta content="website" property="og:type" />
 
@@ -45,6 +49,10 @@ export default function Document() {
         <meta
           content="https://www.goat-hiking.com/social-card.png"
           name="twitter:image"
+        />
+        <meta
+          content="Goat Hiking - Aventuras de montañismo y trekking en México"
+          name="twitter:image:alt"
         />
         <meta
           content="https://www.goat-hiking.com/social-card.png"
