@@ -21,114 +21,22 @@ import {
 import { WaveBackground } from "@/components/wave-background";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import adventuresData from "@/data/adventures.json";
 
 const AdventuresPage: NextPage = () => {
-  const adventures = [
-    {
-      id: "hiking",
-      title: "Hiking & Senderismo",
-      description: "Descubre senderos únicos y paisajes increíbles en caminatas de medio día hasta rutas de día completo.",
-      icon: TrekkingIcon,
-      color: "green",
-      duration: "4-8 horas",
-      difficulty: "Principiante - Intermedio",
-      groupSize: "2-12 personas",
-      price: "Desde $80 USD",
-      includes: [
-        "Guía certificado especializado",
-        "Transporte ida y vuelta",
-        "Equipo de seguridad básico",
-        "Snacks energéticos y agua",
-        "Seguro de actividad",
-        "Fotos digitales del recorrido"
-      ],
-      highlights: [
-        "Rutas panorámicas con vistas espectaculares",
-        "Flora y fauna local única",
-        "Paradas en miradores naturales",
-        "Técnicas básicas de senderismo"
-      ],
-      whatsappLink: siteConfig.links.whatsappHiking
-    },
-    {
-      id: "trekking",
-      title: "Trekking Multi-día",
-      description: "Expediciones de 2-5 días en rutas desafiantes con campamentos base y experiencias inmersivas en la naturaleza.",
-      icon: MountainIcon,
-      color: "blue",
-      duration: "2-5 días",
-      difficulty: "Intermedio - Avanzado",
-      groupSize: "4-10 personas",
-      price: "Desde $250 USD",
-      includes: [
-        "Guías especializados 24/7",
-        "Equipo completo de camping",
-        "Alimentación completa",
-        "Transporte especializado",
-        "Seguro integral",
-        "Certificado de participación"
-      ],
-      highlights: [
-        "Campamentos en ubicaciones únicas",
-        "Rutas de alta montaña",
-        "Experiencia de supervivencia",
-        "Conexión profunda con la naturaleza"
-      ],
-      whatsappLink: siteConfig.links.whatsappTrekking
-    },
-    {
-      id: "mountaineering",
-      title: "Montañismo & Escalada",
-      description: "Conquista las cumbres más desafiantes con técnicas de escalada y montañismo de alta montaña.",
-      icon: MountainIcon,
-      color: "orange",
-      duration: "1-7 días",
-      difficulty: "Avanzado - Experto",
-      groupSize: "2-6 personas",
-      price: "Desde $400 USD",
-      includes: [
-        "Instructor certificado de montañismo",
-        "Equipo técnico especializado",
-        "Cuerdas y sistemas de seguridad",
-        "Refugio en montaña",
-        "Seguro de montañismo",
-        "Entrenamiento técnico previo"
-      ],
-      highlights: [
-        "Técnicas de escalada en roca",
-        "Uso de crampones y piolets",
-        "Navegación en alta montaña",
-        "Conquista de cumbres icónicas"
-      ],
-      whatsappLink: siteConfig.links.whatsappMountaineering
-    },
-    {
-      id: "expeditions",
-      title: "Expediciones Remotas",
-      description: "Aventuras de múltiples días en destinos remotos y espectaculares para los más aventureros y experimentados.",
-      icon: CompassIcon,
-      color: "purple",
-      duration: "5-14 días",
-      difficulty: "Experto",
-      groupSize: "4-8 personas",
-      price: "Desde $800 USD",
-      includes: [
-        "Equipo de guías especializados",
-        "Logística completa de expedición",
-        "Comunicación satelital",
-        "Equipo de campamento profesional",
-        "Alimentación de alta montaña",
-        "Seguro de expedición internacional"
-      ],
-      highlights: [
-        "Destinos vírgenes y remotos",
-        "Experiencia de expedición real",
-        "Técnicas avanzadas de supervivencia",
-        "Paisajes únicos e inexplorados"
-      ],
-      whatsappLink: siteConfig.links.whatsappExpeditions
-    }
-  ];
+  // Map icons from strings to components
+  const iconMap = {
+    TrekkingIcon,
+    MountainIcon,
+    CompassIcon,
+  };
+
+  // Process adventures data and add icons
+  const adventures = adventuresData.adventures.map(adventure => ({
+    ...adventure,
+    icon: iconMap[adventure.icon as keyof typeof iconMap] || TrekkingIcon,
+    whatsappLink: siteConfig.links[adventure.whatsappLink as keyof typeof siteConfig.links] || siteConfig.links.whatsapp
+  }));
 
   return (
     <>

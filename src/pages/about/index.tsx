@@ -18,58 +18,25 @@ import {
 import { WaveBackground } from "@/components/wave-background";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import teamData from "@/data/team.json";
+import valuesData from "@/data/values.json";
 
 export default function AboutPage() {
-  const teamMembers = [
-    {
-      name: "Carlos Mendoza",
-      role: "Fundador y Guía Principal",
-      experience: "15+ años",
-      certifications: ["FMTM - Certificado en Montañismo", "Primeros Auxilios Wilderness", "Rescate en Montaña"],
-      specialties: ["Alta Montaña", "Escalada Técnica", "Expediciones"]
-    },
-    {
-      name: "Ana González",
-      role: "Guía Especializada",
-      experience: "8+ años",
-      certifications: ["CONAMM - Guía Certificada", "Primeros Auxilios", "Interpretación Ambiental"],
-      specialties: ["Trekking", "Turismo Sustentable", "Fotografía de Naturaleza"]
-    },
-    {
-      name: "Miguel Rodríguez", 
-      role: "Guía de Expediciones",
-      experience: "12+ años",
-      certifications: ["Instructor de Montañismo", "Rescate Técnico", "Supervivencia"],
-      specialties: ["Expediciones Remotas", "Navegación", "Supervivencia"]
-    }
-  ];
+  // Map icons from strings to components
+  const iconMap = {
+    WarningIcon,
+    StarIcon,
+    MountainIcon,
+    UsersIcon,
+  };
 
-  const values = [
-    {
-      icon: WarningIcon,
-      color: "red",
-      title: "Seguridad Primero",
-      description: "La seguridad de nuestros aventureros es nuestra máxima prioridad. Protocolos estrictos, equipo certificado y guías altamente entrenados."
-    },
-    {
-      icon: StarIcon,
-      color: "yellow",
-      title: "Experiencias Únicas",
-      description: "Cada aventura está diseñada para ser memorable y transformadora, combinando desafío, belleza natural y crecimiento personal."
-    },
-    {
-      icon: MountainIcon,
-      color: "green", 
-      title: "Respeto por la Naturaleza",
-      description: "Practicamos y enseñamos principios de turismo sustentable, minimizando nuestro impacto en los ecosistemas que visitamos."
-    },
-    {
-      icon: UsersIcon,
-      color: "blue",
-      title: "Comunidad",
-      description: "Fomentamos el espíritu de equipo y la conexión entre aventureros, creando una comunidad de amantes de la montaña."
-    }
-  ];
+  const teamMembers = teamData.teamMembers;
+
+  // Process values data and add icons
+  const values = valuesData.values.map(value => ({
+    ...value,
+    icon: iconMap[value.icon as keyof typeof iconMap] || MountainIcon
+  }));
 
   return (
     <>

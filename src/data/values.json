@@ -1,0 +1,28 @@
+{
+  "values": [
+    {
+      "icon": "WarningIcon",
+      "color": "red",
+      "title": "Seguridad Primero",
+      "description": "La seguridad de nuestros aventureros es nuestra máxima prioridad. Protocolos estrictos, equipo certificado y guías altamente entrenados."
+    },
+    {
+      "icon": "StarIcon",
+      "color": "yellow",
+      "title": "Experiencias Únicas",
+      "description": "Cada aventura está diseñada para ser memorable y transformadora, combinando desafío, belleza natural y crecimiento personal."
+    },
+    {
+      "icon": "MountainIcon",
+      "color": "green",
+      "title": "Respeto por la Naturaleza",
+      "description": "Practicamos y enseñamos principios de turismo sustentable, minimizando nuestro impacto en los ecosistemas que visitamos."
+    },
+    {
+      "icon": "UsersIcon",
+      "color": "blue",
+      "title": "Comunidad",
+      "description": "Fomentamos el espíritu de equipo y la conexión entre aventureros, creando una comunidad de amantes de la montaña."
+    }
+  ]
+}

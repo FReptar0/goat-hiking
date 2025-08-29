@@ -1,0 +1,37 @@
+{
+  "teamMembers": [
+    {
+      "name": "Carlos Mendoza",
+      "role": "Fundador y Guía Principal",
+      "experience": "15+ años",
+      "certifications": [
+        "FMTM - Certificado en Montañismo",
+        "Primeros Auxilios Wilderness",
+        "Rescate en Montaña"
+      ],
+      "specialties": ["Alta Montaña", "Escalada Técnica", "Expediciones"]
+    },
+    {
+      "name": "Ana González",
+      "role": "Guía Especializada",
+      "experience": "8+ años",
+      "certifications": [
+        "CONAMM - Guía Certificada",
+        "Primeros Auxilios",
+        "Interpretación Ambiental"
+      ],
+      "specialties": ["Trekking", "Turismo Sustentable", "Fotografía de Naturaleza"]
+    },
+    {
+      "name": "Miguel Rodríguez",
+      "role": "Guía de Expediciones",
+      "experience": "12+ años",
+      "certifications": [
+        "Instructor de Montañismo",
+        "Rescate Técnico",
+        "Supervivencia"
+      ],
+      "specialties": ["Expediciones Remotas", "Navegación", "Supervivencia"]
+    }
+  ]
+}

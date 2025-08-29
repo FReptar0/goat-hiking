@@ -1,0 +1,112 @@
+{
+  "destinations": [
+    {
+      "id": "nevado-toluca",
+      "name": "Nevado de Toluca",
+      "location": "Estado de México",
+      "elevation": "4,680m",
+      "difficulty": "Intermedio",
+      "bestTime": "Oct - Mar",
+      "description": "El cuarto pico más alto de México, famoso por sus dos lagunas cratéricas: La Luna y El Sol. Una aventura accesible para montañistas intermedios.",
+      "highlights": [
+        "Dos lagunas cratéricas espectaculares",
+        "Vistas panorámicas del Valle de Toluca",
+        "Flora alpina única",
+        "Ascenso técnicamente accesible"
+      ],
+      "activities": ["Montañismo", "Hiking", "Fotografía"],
+      "duration": "1-2 días",
+      "whatsappMessage": "Hola, me interesa el tour al Nevado de Toluca. ¿Podrían darme información sobre fechas disponibles y qué incluye el paquete?"
+    },
+    {
+      "id": "pico-orizaba",
+      "name": "Pico de Orizaba (Citlaltépetl)",
+      "location": "Veracruz - Puebla",
+      "elevation": "5,636m",
+      "difficulty": "Avanzado",
+      "bestTime": "Nov - Feb",
+      "description": "El pico más alto de México y tercero de Norteamérica. Una expedición desafiante que requiere experiencia en alta montaña y aclimatación.",
+      "highlights": [
+        "Punto más alto de México",
+        "Glaciar permanente",
+        "Vistas espectaculares del Golfo de México",
+        "Experiencia de alta montaña auténtica"
+      ],
+      "activities": ["Montañismo Técnico", "Escalada en Hielo", "Expedición"],
+      "duration": "3-5 días",
+      "whatsappMessage": "Hola, estoy interesado en la expedición al Pico de Orizaba. ¿Qué nivel de experiencia se requiere y qué incluye la expedición?"
+    },
+    {
+      "id": "la-malinche",
+      "name": "La Malinche (Matlalcuéyatl)",
+      "location": "Tlaxcala - Puebla",
+      "elevation": "4,461m",
+      "difficulty": "Principiante - Intermedio",
+      "bestTime": "Oct - Abr",
+      "description": "Una montaña perfecta para iniciarse en el montañismo de altura. Bosques de coníferas, prados alpinos y vistas increíbles de los volcanes centrales.",
+      "highlights": [
+        "Ideal para principiantes en montañismo",
+        "Bosques de pino y oyamel",
+        "Vistas de Popocatépetl e Iztaccíhuatl",
+        "Rica biodiversidad"
+      ],
+      "activities": ["Hiking", "Montañismo", "Observación de Fauna"],
+      "duration": "1-2 días",
+      "whatsappMessage": "Hola, me interesa subir La Malinche. Soy principiante en montañismo, ¿es adecuada para mí? ¿Qué incluye el tour?"
+    },
+    {
+      "id": "iztaccihuatl",
+      "name": "Iztaccíhuatl (La Mujer Dormida)",
+      "location": "Estado de México - Puebla",
+      "elevation": "5,230m",
+      "difficulty": "Avanzado",
+      "bestTime": "Nov - Mar",
+      "description": "La tercera montaña más alta de México, conocida por su perfil que asemeja a una mujer dormida. Requiere experiencia técnica y excelente condición física.",
+      "highlights": [
+        "Tercera montaña más alta de México",
+        "Múltiples cumbres (El Pecho, La Cabeza, Los Pies)",
+        "Glaciares y ventisqueros",
+        "Vista privilegiada del Popocatépetl"
+      ],
+      "activities": ["Montañismo Técnico", "Escalada en Roca", "Expedición"],
+      "duration": "2-4 días",
+      "whatsappMessage": "Hola, quiero información sobre la expedición al Iztaccíhuatl. ¿Qué experiencia previa se necesita y cuál es el itinerario?"
+    },
+    {
+      "id": "sierra-norte-puebla",
+      "name": "Sierra Norte de Puebla",
+      "location": "Puebla",
+      "elevation": "2,000-3,500m",
+      "difficulty": "Principiante - Intermedio",
+      "bestTime": "Todo el año",
+      "description": "Una región montañosa llena de bosques de niebla, cascadas, pueblos mágicos y cultura indígena. Perfecto para trekkings de varios días.",
+      "highlights": [
+        "Bosques de niebla únicos",
+        "Cascadas espectaculares",
+        "Pueblos indígenas tradicionales",
+        "Biodiversidad excepcional"
+      ],
+      "activities": ["Trekking", "Turismo Cultural", "Fotografía de Naturaleza"],
+      "duration": "2-7 días",
+      "whatsappMessage": "Hola, me interesa hacer trekking en la Sierra Norte de Puebla. ¿Qué rutas recomiendan y qué pueblos se pueden visitar?"
+    },
+    {
+      "id": "real-catorce",
+      "name": "Real de Catorce y Desierto",
+      "location": "San Luis Potosí",
+      "elevation": "2,750m",
+      "difficulty": "Intermedio",
+      "bestTime": "Oct - Abr",
+      "description": "Un pueblo fantasma en el desierto con historia minera y paisajes únicos. Combina senderismo desértico, cultura y sitios históricos.",
+      "highlights": [
+        "Pueblo fantasma histórico",
+        "Paisajes desérticos únicos",
+        "Cultura huichol",
+        "Cielos estrellados espectaculares"
+      ],
+      "activities": ["Hiking Desértico", "Turismo Cultural", "Astronomía"],
+      "duration": "2-4 días",
+      "whatsappMessage": "Hola, me interesa el tour a Real de Catorce. ¿Qué actividades incluye y cuál es la mejor época para visitarlo?"
+    }
+  ]
+}
